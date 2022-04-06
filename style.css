@@ -1,3 +1,87 @@
 *{
     border: 2px solid red;
+
+}
+html{
+    justify-content: center;
+}
+html, body, .header, ul, .neck, .sign-up{
+    display: flex;
+}
+
+.header, ul, .neck{
+    flex-direction: row;
+}
+
+
+
+body{
+    margin: 0;
+    flex-grow: 1;
+    justify-content: center;
+    
+}
+
+.header{
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-right{
+    padding-right: 128px;
+}
+
+.logo{
+    padding-left:128px;
+}
+
+ul{
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.neck{
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.sign-up{
+    flex-direction: column;
+    align-items: flex-start ;
+    justify-content: space-between;
+    height: 250px;
+    margin: 0px;
+    padding-left:128px;
+}
+.h-sign{
+    font-size: 48px;
+    color: #f9f1f8;
+    font-weight: 800;
+    width: 400px;
+    margin-right: 64px;
+}
+.p-sign{
+    width: 400px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.img-cat{
+    padding-left: 64px;
+    width: min-content;
+    height: 250px;
+    padding-right: 128px;
+}
+
+.img-rand{
+    height: 100px;
+    width: 100px;
+}
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
 }

@@ -1,55 +1,60 @@
 *{
     border: 2px solid red;
-
-}
-html{
-    justify-content: center;
-}
-html, body, .header, ul, .neck, .sign-up{
-    display: flex;
 }
 
-.header, ul, .neck{
-    flex-direction: row;
+.hero1-txt{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9f1f8;
 }
-
-
-
-body{
-    margin: 0;
-    flex-grow: 1;
-    justify-content: center;
-    
-}
-
-.header{
-    background-color: #1f2937;
-    font-size: 24px;
-    color: #f9faf8;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.head-right{
-    padding-right: 128px;
-}
-
-.logo{
-    padding-left:128px;
-}
-
-ul{
-    list-style: none;
+.hero2-txt{
     font-size: 18px;
     color: #e5e7eb;
 }
-
-.neck{
+.h-logo-txt{
+    font-size: 24px;
+    color: #f9f1f8;
+}
+.blue,{
+    background-color: #3882f6;
+}
+.dark-blue{
     background-color: #1f2937;
+}
+.info-h-txt{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+button{
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+.h-links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 16px;
+}
+.neck{
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding-top: 32px;
 }
-
 .sign-up{
     flex-direction: column;
     align-items: flex-start ;
@@ -57,11 +62,9 @@ ul{
     height: 250px;
     margin: 0px;
     padding-left:128px;
+    list-style: none;
 }
 .h-sign{
-    font-size: 48px;
-    color: #f9f1f8;
-    font-weight: 800;
     width: 400px;
     margin-right: 64px;
 }
@@ -76,12 +79,13 @@ ul{
     height: 250px;
     padding-right: 128px;
 }
-
 .img-rand{
     height: 100px;
     width: 100px;
 }
-button{
-    background-color: #3882f6;
-    border-radius: 5px;
+.h-info{
+    
+}
+.p-info{
+    
 }
